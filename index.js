@@ -1,6 +1,6 @@
 //OBJECTS
 //  Create a User object with properties like name, stepsWalked (an array of daily steps), and a method totalSteps() that calculates and returns the total number of steps walked. Add another method averageSteps() that returns the average steps per day.
-//Pseudo
+//Pseudocode
 // Create a User object with the name,stepsWalked(array)
 //create method totalSteps that returns the sum of daily steps in the array by looping  using reduce method to add
 //create method averageSteps that finds the average steps(dividetotal steps by the length)
@@ -21,7 +21,7 @@ console.log(User.averageSteps());
 
 
 //  Create a Car object with properties like model, mileage, and serviceHistory (an array of service dates). Add a method addService(date) to add a new service record, and lastServiceDate() to return the most recent service date.
-//Pseudo
+//Pseudocode
 //create  car object with the model, mileage and serviceHistory that holds an array of service  dates
 //create method addService that pushes a new date into the system
 //create method lastService that shows the most recent record
@@ -42,7 +42,7 @@ console.log(`Car service record: ${Car.serviceHistory}`);
 console.log(`Your next service date is ${Car.lastServiceDate()}`);
 
 //  Create a Playlist object with a property songs (an array of song titles). Add methods addSong(title) to add a song, removeSong(title) to delete one, and listSongs() to log all songs currently in the playlist.
-//Pseudo
+//Pseudocode
 //Create playlist object with songs(array)
 //create :addSongs(title)method which pushes new songs to the array(push)
 //       removeSong(title)method which removes title(pop())
